@@ -1,0 +1,18 @@
+package day47;
+
+public class Student {
+    // FINAL INSTANCE FIELD
+    final int studentId;
+    //****PUBLIC STATIC FINAL FIELD**** WITH INITIAL VALUE SET
+    //THIS TYPE OF FIELD NAME ALWAYS SUGGESTED TO MAKE ALL UPPERCASE
+    //TO MAKE IT CLEAR THAT THIS IS A  PUBLIC STATIC FILED THAT NEVER CHANGE
+    //OTHER LANGUAGES HAS SPECIFIC TERM CALLED CONSTANT FOR THIS
+
+    //IF INTERVIEWWE ASKS HOW DO I DEFINE CONSTANT IN JAVA?
+    //YOU WILL SAY WILL CREATE  *** PUBLIC STATIC FINAL FIELD***!!!
+    public static final String SCHOOL = "Cybertek";
+
+    public Student(int studentId){
+        this.studentId=studentId;
+    }
+}
