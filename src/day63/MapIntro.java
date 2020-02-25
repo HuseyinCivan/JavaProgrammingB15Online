@@ -14,15 +14,15 @@ public class MapIntro {
     //one for the key one for the value
 
 
-    Map<String ,String > nameAndStatePair = new HashMap<>();
+    Map<String, String> nameAndStatePair = new HashMap<String, String>();
 
-    Map<Integer,String> groupNumLeaderNamePair = new HashMap<>();
+    Map<Integer, String> groupNumLeaderNamePair = new HashMap<>();
 
-    Map<String , Double> groceryNameAndPrice= new HashMap<>();
+    Map<String, Double> groceryNameAndPrice= new HashMap<>();
 
-    Map< String , Boolean > voterAndEligibilityPair = new HashMap<>();
+    Map<String, Boolean > voterAndEligibilityPair = new HashMap<>();
 
-    Map<String , Integer> scoreMap = new HashMap<>();
+    Map<String, Integer> scoreMap = new HashMap<>();
 
     Map<Byte, Character> questionNumAndCorrectAnswerPair = new HashMap<>();
 

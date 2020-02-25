@@ -1,7 +1,6 @@
 package day63;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
 
 public class WordFrequency {
@@ -10,7 +9,7 @@ public class WordFrequency {
         String str = "Finding Words Frequency Sounds Fun Because Fun Comes in When you count Words" +
                 " But How do I count the Words with what I already know previously " +
                 "Do it and find out Words Words Words";
-        
+
         String[] allWords=str.split(" ");
         System.out.println("allWords.length = " + allWords.length);
 

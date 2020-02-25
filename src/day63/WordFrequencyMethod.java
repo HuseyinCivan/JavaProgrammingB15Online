@@ -11,7 +11,7 @@ public class WordFrequencyMethod {
     }
 
 
-    public static Map<String ,Integer> getFrequencyMap (String str){
+    public static Map<String,Integer> getFrequencyMap (String str){
 
         Map<String,Integer> wordFreqMap = new HashMap<>();
 

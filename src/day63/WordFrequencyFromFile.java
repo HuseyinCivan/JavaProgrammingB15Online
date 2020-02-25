@@ -2,7 +2,6 @@ package day63;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -11,7 +10,7 @@ public class WordFrequencyFromFile {
 
 
         try {
-           List<String > allLines =  Files.readAllLines(Paths.get("src/day63/map.txt"));
+           List<String> allLines =  Files.readAllLines(Paths.get("src/day63/map.txt"));
             System.out.println("allLines = " + allLines);
 
             String allLinesAsString= allLines.toString();

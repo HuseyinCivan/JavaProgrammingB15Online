@@ -20,7 +20,7 @@ public class ReadingFilePractice {
 
         //1,Lilian   --- 1 lilian
 
-        Map<Integer,String> idNamePair =new HashMap<>();
+        Map<Integer, String> idNamePair =new HashMap<>();
         for (String eachLine : allData) {
             int id = Integer.parseInt(eachLine.split(",")[0]);
             String name= eachLine.split(",")[1];

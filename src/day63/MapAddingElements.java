@@ -7,7 +7,7 @@ public class MapAddingElements {
     public static void main(String[] args) {
 
         //Creating HashMap object
-        Map<String ,Integer > nameAgePair = new HashMap<>();
+        Map<String,Integer > nameAgePair = new HashMap<>();
 
         //adding elements
         nameAgePair.put("Zehra",6);
@@ -17,7 +17,7 @@ public class MapAddingElements {
         nameAgePair.put("Fatih",27);
         nameAgePair.put("Ruhksona",16);
         nameAgePair.put("Zehra",7);
-        
+
 
 
         System.out.println("nameAgePair = " + nameAgePair);
@@ -28,7 +28,7 @@ public class MapAddingElements {
 
         //how do we get a value according to the key
         System.out.println("Zehra's age = " + nameAgePair.get("Zehra"));
-        
+
         //how do i check a key already exist or not
         System.out.println("nameAgePair.containsKey(\"Ruhksona\") = " + nameAgePair.containsKey("Ruhksona"));
 
@@ -38,18 +38,18 @@ public class MapAddingElements {
 
         nameAgePair.putIfAbsent("Zehra",10);
         System.out.println("nameAgePair = " + nameAgePair);
-        
+
         //Updating the element in the Map using replace
         nameAgePair.replace("Maiia",17);
         System.out.println("nameAgePair.get(\"Maiia\") = " + nameAgePair.get("Maiia"));
         //why don't we just use put? what is the downside ?
         //If i don't have that key , it will just add new one and that's not what we want , we only want to update
-        
+
         //updating the value only if the old value equals to specific value
         //update Zehra's age to 9 if it was 17
         nameAgePair.replace("Zehra",7,10);
         System.out.println("nameAgePair.get(\"Zehra\") = " + nameAgePair.get("Zehra"));
-        
+
 
 
         //removing Entry by the key
