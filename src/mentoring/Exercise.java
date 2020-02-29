@@ -17,6 +17,7 @@ public class Exercise {
     public static void main(String[] args) {
 
         String s="asd";
+        System.out.println("s = " + s);
 
 //        for (int x = 1; x <= 10; x++) {  //OUTERLOOP
 //
